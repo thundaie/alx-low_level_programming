@@ -1,23 +1,15 @@
 #include <stdio.h>
 
-
-
 /**
+ * main - Entry point
  *
- *  * main - Entry point
+ * A C command to print the size of various types.
  *
- *   *
+ * Return: Always 0 (Success)
  *
- *    * A C command to print the size of various types.
- *
- *     *
- *
- *      * Return: Always 0 (Success)
- *
- *       */
+ */
 
 int main(void)
-
 {
 
 
