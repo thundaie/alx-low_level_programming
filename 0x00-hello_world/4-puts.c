@@ -4,13 +4,9 @@
 
 /**
  *main - Entry point
-
  *
-
  * A C program that uses put function
-
  * Return: Always 0 (Success)
-
  */
 
 int main(void)
