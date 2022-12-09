@@ -1,13 +1,11 @@
 #include <unistd.h>
 
 /**
-
  * main - Entry point
-
+ *
  * A C program that prints a string to the stderr using write function
-
+ *
  * Return: Always 1 (failure)
-
  */
 
 int main(void)
