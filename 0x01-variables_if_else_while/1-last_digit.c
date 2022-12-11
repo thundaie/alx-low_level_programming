@@ -5,36 +5,37 @@
 #include <stdio.h>
 
 
+
 /**
-*main - Entry point
-*
-*Description: to print last digit 
-*
-*Return: Always 0 (Success) 
-*/
+ *main - Entry point
+ *
+ *Description: Print last digit
+ *
+ *Return: Always 0 (Success)
+ */
+
+
 
 int main(void)
 
 {
 
-	int n;
+		int n, lastdigit;
 
 
-	srand(time(0));
 
-	n = rand() - RAND_MAX / 2;
+			srand(time(0));
 
-	int Lastdigit = n % 10;
+				n = rand() - RAND_MAX / 2;
 
-	if (Lastdigit > 5){
-	printf("Last digit of %d is %d and is greater than 5\n", n, Lastdigit);
-	}
-	else if (Lastdigit == 0){
-	printf("Last digit of %d is %d and is 0\n", n, Lastdigit);
-	}
-	else if (Lastdigit < 6 && Lastdigit != 0){
-	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, Lastdigit);
-	}
+					last = n % 10;
 
-	return (0);
+					if (last > 5)
+						printf("Last digit of %d is %d and is greater than 5\n", n, last);
+					if (last == 0)
+						printf("Last digit of %d is %d and is 0\n", n, last);
+					if (last < 6 && last != 0)
+						printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last);
+					return (0);
+
 }
