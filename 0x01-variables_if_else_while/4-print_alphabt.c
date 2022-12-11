@@ -7,14 +7,16 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void){
-	char ch;
-	for(ch='a'; ch <= 'z';){
-		for(ch != 'q'; && ch != 'e';){
-	}
-	putchar(ch);
-	ch++;
+int main(void)
+{
+	char ch = 'a';
+		while (ch <= 'z')
+		{
+			if (ch != 'e' && ch != 'q')
+			{
+				putchar(ch);																				}
+			++ch;
+		}
+			putchar('\n');
+			return (0);
 }
-return (0);
-}
-
