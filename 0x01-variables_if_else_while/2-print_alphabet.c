@@ -7,13 +7,17 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void){
-	char x;
-	for(x = 'a'; x <= 'z';){
-		putchar (x);
-		x++;
-		putchar ("\n");
-	}
+int main(void)
 
-	return (0);
+{
+	char ch;
+
+	for (ch = 'a'; ch <= 'z';)
+	{
+		putchar(ch);
+		++ch;
+	}
+		putchar('\n');
+		return (0);
+
 }
