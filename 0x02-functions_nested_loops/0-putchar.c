@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include <errno.h>
+#include <main.h>
 
 #include <string.h>
 
