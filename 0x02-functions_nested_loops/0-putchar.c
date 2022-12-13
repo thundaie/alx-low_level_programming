@@ -1,7 +1,11 @@
 #include <stdio.h>
 
+#include <errno.h>
+
+#include <string.h>
+
 /**
- * main- Entry point 
+ * main- Entry point
  *
  * Description: print _putchar
  *
@@ -10,11 +14,10 @@
 
 int main(void)
 {
-	char ch[];
-	
-	ch = '_putchar';
+	char ch[9];
 
-	printf("%c\n", ch);
+	strcpy(ch, "_putchar");
+	printf("%s\n", ch);
 
 	return (0);
 }
