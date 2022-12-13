@@ -17,7 +17,7 @@ int main(void)
 	char ch[9];
 
 	strcpy(ch, "_putchar");
-	printf("%s\n", ch);
+	_putchar("%s\n", ch);
 
 	return (0);
 }
